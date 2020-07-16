@@ -1,0 +1,108 @@
+p {
+    text-align: center;
+    font-size: 3em;
+    margin: .5em;
+}
+
+#zaniacButton, #save, #clear{
+    display: block;
+    margin: 0 auto;
+    margin-top: .5em;
+    padding:.3em;
+    height: initial
+}
+
+#mygrid {
+  float:left;
+}
+
+.upgrade {
+    height: 22vw;
+    min-height: 14em;
+    width: 22vw;
+    min-width:14em;
+    background-size: cover;
+    border-radius: 2vw;
+    margin: 1vw;
+}
+
+button, p, label{
+    text-shadow: 1px 1px white,
+                -1px 1px white,
+                1px -1px white,
+                -1px -1px white;
+    font-size: 1.4em;
+    font-weight:bold;
+}
+
+#autoSave {
+    font-size: .5em;
+}
+
+button {
+    border-radius: .8em;
+}
+
+#clickFarm {
+    background-image: url("img/farm.png");
+}
+
+#clickCity {
+    background-image: url("img/city.png");
+}
+
+#clickPower {
+    background-image: url("img/cursor.png");
+}
+
+#clickContinent {
+    background-image: url("img/clickcontinent.jpg");
+}
+#clickMoon {
+    background-image: url("img/mousemoon.jpg");
+}
+
+#clickFactory {
+    background-image: url("img/factory.jpeg");
+}
+
+#clickPlanet {
+    background-image: url("img/cursorplanet.png");
+}
+
+#clickStar {
+    background-image: url("img/suncursor.png");
+}
+
+#clickGalaxy {
+    background-image: url("img/clickgalaxy.jpg");
+}
+
+#clickUniverse {
+    background-image: url("img/spacemouse.jpg");
+}
+
+
+#moneyP {
+    font-size: 5vw;
+    color:#00aa00;
+    width: 80%;
+    padding-top: .4em;
+    padding-bottom: .4em;
+    display: block;
+    margin: 0 auto;
+    background: radial-gradient(circle, rgba(80,71,157,1) 0%, rgba(241,104,34,1) 50%, rgba(63,197,242,1) 75%, rgba(170,204,54,1) 100%);
+    border-radius: 10vw;
+}
+
+#bgdiv{
+    position: fixed;
+    height:100%;
+    width:100%;
+    opacity:.3;
+    z-index: -1;
+}
+
+#smol {
+    font-size: .6em;
+}
